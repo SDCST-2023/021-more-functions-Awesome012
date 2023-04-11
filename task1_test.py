@@ -7,3 +7,7 @@ def test1():
 
 def test2():
     assert task1.btcTocad(0.5) == 22500
+
+if __name__ == "__main__":
+  test1()
+  test2()

@@ -7,3 +7,7 @@ def test1():
 
 def test2():
     assert task3.hypotenuse(5,12) == 13
+
+if __name__ == "__main__":
+  test1()
+  test2()
