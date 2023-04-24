@@ -14,8 +14,11 @@ assert hypotenuse(6,8) == 10
 (2 points)
 """
 
-
-def hypotenuse():
-    pass
-
-assert hypotenuse(6,8) == 10
+import math
+def hypotenuse(a,b):
+    d = math.sqrt((a ** 2) + (b ** 2))
+    print(d)
+    return d
+    
+if __name__ == "__main__":
+    assert hypotenuse(6,8) == 10
